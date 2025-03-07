@@ -1,0 +1,28 @@
+[project]
+name = "proyecto-ml-btc-pred"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "fpalvim",email = "felipe_alvim_13@hotmail.com"}
+]
+readme = "README.md"
+packages = [{include = "proyecto_ml_btc_pred"}]
+requires-python = ">=3.11"
+dependencies = [
+    "datasciencetree (>=0.2.0,<0.3.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "matplotlib (>=3.10.0,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "yfinance (>=0.2.52,<0.3.0)",
+    "plotly (>=6.0.0,<7.0.0)",
+    "nbformat (>=5.10.4,<6.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "xgboost (>=2.1.4,<3.0.0)",
+    "statsmodels (>=0.14.4,<0.15.0)",
+    "numpy (==2.1)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
