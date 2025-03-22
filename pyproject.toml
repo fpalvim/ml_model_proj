@@ -1,12 +1,12 @@
 [project]
-name = "proyecto-ml-btc-pred"
+name = "proyecto-ml-heart-disease"
 version = "0.1.0"
 description = ""
 authors = [
     {name = "fpalvim",email = "felipe_alvim_13@hotmail.com"}
 ]
 readme = "README.md"
-packages = [{include = "proyecto_ml_btc_pred"}]
+packages = [{include = "proyecto-ml-heart-disease"}]
 requires-python = ">=3.11"
 dependencies = [
     "datasciencetree (>=0.2.0,<0.3.0)",
